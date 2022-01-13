@@ -17,13 +17,13 @@
 			<p id="description">This Survey has random questions I found on the internet</p>
 			<form id="survey-form">
 				<label for="name" id="name-label">Name</label>
-				<input type="text" id="name" placeholder="Enter your name" required>
+				<input type="text" id="name" placeholder="Enter your name" autocomplete="none" required>
 				
 				<label for="email" id="email-label">Email</label>
-				<input type="email" id="email" placeholder="Enter your email" required>
+				<input type="email" id="email" placeholder="Enter your email" autocomplete="none" required>
 
 				<label for="number" id="number-label">Lucky number</label>
-				<input type="number" id="number" placeholder="?" min="0" max="100">
+				<input type="number" id="number" placeholder="What is your lucky number?" min="0" max="100">
 
 				<label class="question" for="dropdown">If you dug a hole through the center of the Earth from Wellington, New Zealand, in which European country would you emerge?</label>
 				<select id="dropdown">
@@ -37,113 +37,207 @@
 				<div class="radio">
 					<div>
 						<p class="question">What would you rather throw away love or money</p>
-						<input type="radio" name="radio1" value="love" id="love">
-						<label for="love">love</label>
-						<input type="radio" name="radio1" value="money" id="money">
-						<label for="money">money</label>
+						<div>
+							<label for="love">
+								<input type="radio" name="radio1" value="love" id="love">
+								love
+							</label>
+							<label for="money">
+								<input type="radio" name="radio1" value="money" id="money">
+								money
+							</label>
+						</div>
 					</div>
 					<div>
 						<p class="question">Would you rather be a high school teacher or a clown?</p>
-						<input type="radio" name="radio2" value="teacher" id="teacher">
-						<label for="teacher">high school teacher</label>
-						<input type="radio" name="radio2" value="clown" id="clown">
-						<label for="clown">clown</label>
+						<div>
+							<label for="teacher">
+								<input type="radio" name="radio2" value="teacher" id="teacher">
+								high school teacher
+							</label>
+							<label for="clown">
+								<input type="radio" name="radio2" value="clown" id="clown">
+								clown
+							</label>
+						</div>
 					</div>
 					<div>
 						<p class="question">Would you rather have a time machine or a teleporter?</p>
-						<input type="radio" name="radio3" value="time machine" id="time machine">
-						<label for="time machine">time machine</label>
-						<input type="radio" name="radio3" value="teleporter" id="teleporter">
-						<label for="teleporter">teleporter</label>
+						<div>
+							<label for="time machine">
+								<input type="radio" name="radio3" value="time machine" id="time machine">
+								time machine
+							</label>
+							<label for="teleporter">
+								<input type="radio" name="radio3" value="teleporter" id="teleporter">
+								teleporter
+							</label>
+						</div>
 					</div>
 					<div>
 						<p class="question">Would you rather have to always hop around on one foot or have to always squat?</p>
-						<input type="radio" name="radio4" value="hop on one foot" id="hop on one foot">
-						<label for="hop on one foot">hop on one foot</label>
-						<input type="radio" name="radio4" value="squat" id="squat">
-						<label for="squat">squat</label>
+						<div>
+							<label for="hop on one foot">
+								<input type="radio" name="radio4" value="hop on one foot" id="hop on one foot">
+								hop on one foot
+							</label>
+							<label for="squat">
+								<input type="radio" name="radio4" value="squat" id="squat">
+								squat
+							</label>
+						</div>
 					</div>
 					<div>
 						<p class="question">Would you rather wear a constantly changing outfit or a constantly changing hairstyle?</p>
-						<input type="radio" name="radio5" value="outfit" id="outfit">
-						<label for="outfit">outfit</label>
-						<input type="radio" name="radio5" value="hairstyle" id="hairstyle">
-						<label for="hairstyle">hairstyle</label>
+						<div>
+							<label for="outfit">
+								<input type="radio" name="radio5" value="outfit" id="outfit">
+								outfit
+							</label>
+							<label for="hairstyle">
+								<input type="radio" name="radio5" value="hairstyle" id="hairstyle">
+								hairstyle
+							</label>
+						</div>
 					</div>
 					<div>
 						<p class="question">Would you rather wear a green leprechaun hat every day or fairy wings?</p>
-						<input type="radio" name="radio6" value="green leprechaun hat" id="green leprechaun hat">
-						<label for="green leprechaun hat">green leprechaun hat</label>
-						<input type="radio" name="radio6" value="fairy wings" id="fairy wings">
-						<label for="fairy wings">fairy wings</label>
+						<div>
+							<label for="green leprechaun hat">
+								<input type="radio" name="radio6" value="green leprechaun hat" id="green leprechaun hat">
+								green leprechaun hat
+							</label>
+							<label for="fairy wings">
+								<input type="radio" name="radio6" value="fairy wings" id="fairy wings">
+								fairy wings
+							</label>
+						</div>
 					</div>
 					<div>
 						<p class="question">Would you rather your only mode of transportation be a donkey or a giraffe?</p>
-						<input type="radio" name="radio7" value="donkey" id="donkey">
-						<label for="donkey">donkey</label>
-						<input type="radio" name="radio7" value="giraffe" id="giraffe">
-						<label for="giraffe">giraffe</label>
+						<div>
+							<label for="donkey">
+								<input type="radio" name="radio7" value="donkey" id="donkey">
+								donkey
+							</label>
+							<label for="giraffe">
+								<input type="radio" name="radio7" value="giraffe" id="giraffe">
+								giraffe
+							</label>
+						</div>
 					</div>
 					<div>
 						<p class="question">Would you rather have a pet tiger or a pet lion?</p>
-						<input type="radio" name="radio8" value="tiger" id="tiger">
-						<label for="tiger">tiger</label>
-						<input type="radio" name="radio8" value="lion" id="lion">
-						<label for="lion">lion</label>
+						<div>
+							<label for="tiger">
+								<input type="radio" name="radio8" value="tiger" id="tiger">
+								tiger
+							</label>
+							<label for="lion">
+								<input type="radio" name="radio8" value="lion" id="lion">
+								lion
+							</label>
+						</div>
 					</div>
 					<div>
 						<p class="question">Would you rather be trapped in a romatic comedy with your enemies or trapped a a horror movie with your friends?</p>
-						<input type="radio" name="radio9" value="romatic comedy" id="romatic comedy">
-						<label for="romatic comedy">romatic comedy with enemies</label>
-						<input type="radio" name="radio9" value="horror" id="horror">
-						<label for="horror">horror movie with your friends</label>
+						<div>
+							<label for="romatic comedy">
+								<input type="radio" name="radio9" value="romatic comedy" id="romatic comedy">
+								romatic comedy with enemies
+							</label>
+							<label for="horror">
+								<input type="radio" name="radio9" value="horror" id="horror">
+								horror movie with your friends
+							</label>
+						</div>
 					</div>
 					<div>
 						<p class="question">Would you rather go a year with no eyelashes or go a year with no eyebrows?</p>
-						<input type="radio" name="radio10" value="eyelashes" id="eyelashes">
-						<label for="eyelashes">no eyelashes</label>
-						<input type="radio" name="radio10" value="eyebrows" id="eyebrows">
-						<label for="eyebrows">no eyebrows</label>
+						<div>
+							<label for="eyelashes">
+								<input type="radio" name="radio10" value="eyelashes" id="eyelashes">
+								no eyelashes
+							</label>
+							<label for="eyebrows">
+								<input type="radio" name="radio10" value="eyebrows" id="eyebrows">
+								no eyebrows
+							</label>
+						</div>
 					</div>
 					<div>
 						<p class="question">Would you rather have a face that everyone laughs at or a name that everyone laughs at?</p>
-						<input type="radio" name="radio11" value="face" id="face">
-						<label for="face">face</label>
-						<input type="radio" name="radio11" value="name" id="nameR">
-						<label for="nameR">name</label>
+						<div>
+							<label for="face">
+								<input type="radio" name="radio11" value="face" id="face">
+								face
+							</label>
+							<label for="nameR">
+								<input type="radio" name="radio11" value="name" id="nameR">
+								name
+							</label>
+						</div>
 					</div>
 					<div>
 						<p class="question">Would you rather be reincarnated as a sea creature or an airborne creature?</p>
-						<input type="radio" name="radio12" value="sea" id="sea">
-						<label for="sea">sea creature</label>
-						<input type="radio" name="radio12" value="airborne" id="airborne">
-						<label for="airborne">airborne creature</label>
+						<div>
+							<label for="sea">
+								<input type="radio" name="radio12" value="sea" id="sea">
+								sea creature
+							</label>
+							<label for="airborne">
+								<input type="radio" name="radio12" value="airborne" id="airborne">
+								airborne creature
+							</label>
+						</div>
 					</div>
 				</div>
 				<p class="question">If You Could Have Any Super Power, Which One Would You Choose?</p>
-				<input type="checkbox" name="superpower" id="Flying" value="Flying">
-				<label for="Flying">Flying</label>
-				<input type="checkbox" name="superpower" id="Invisibility" value="Invisibility">
-				<label for="Invisibility">Invisibility</label>
-				<input type="checkbox" name="superpower" id="Duplication" value="Duplication">
-				<label for="Duplication">Duplication</label>
-				<input type="checkbox" name="superpower" id="Elasticity" value="Elasticity">
-				<label for="Elasticity">Elasticity</label>
-				<input type="checkbox" name="superpower" id="Telekinesis" value="Telekinesis">
-				<label for="Telekinesis">Telekinesis</label>
-				<input type="checkbox" name="superpower" id="Immortality" value="Immortality">
-				<label for="Immortality">Immortality</label>
-				<input type="checkbox" name="superpower" id="Mind control" value="Mind control">
-				<label for="Mind control">Mind control</label>
-				<input type="checkbox" name="superpower" id="Heat vision" value="Heat vision">
-				<label for="Heat vision">Heat vision</label>
-				<input type="checkbox" name="superpower" id="Empathy" value="Empathy">
-				<label for="Empathy">Empathy</label>
-				<input type="checkbox" name="superpower" id="Animal morphing" value="Animal morphing">
-				<label for="Animal morphing">Animal morphing</label>
+				<div class="checkbox">
+					<label for="Flying">
+						<input type="checkbox" name="superpower" id="Flying" value="Flying">
+						Flying
+					</label>
+					<label for="Invisibility">
+						<input type="checkbox" name="superpower" id="Invisibility" value="Invisibility">
+						Invisibility
+					</label>
+					<label for="Duplication">
+						<input type="checkbox" name="superpower" id="Duplication" value="Duplication">
+						Duplication
+					</label>
+					<label for="Elasticity">
+						<input type="checkbox" name="superpower" id="Elasticity" value="Elasticity">
+						Elasticity
+					</label>
+					<label for="Telekinesis">
+						<input type="checkbox" name="superpower" id="Telekinesis" value="Telekinesis">
+						Telekinesis
+					</label>
+					<label for="Immortality">
+						<input type="checkbox" name="superpower" id="Immortality" value="Immortality">
+						Immortality
+					</label>
+					<label for="Mind control">
+						<input type="checkbox" name="superpower" id="Mind control" value="Mind control">
+						Mind control
+					</label>
+					<label for="Heat vision">
+						<input type="checkbox" name="superpower" id="Heat vision" value="Heat vision">
+						Heat vision
+					</label>
+					<label for="Empathy">
+						<input type="checkbox" name="superpower" id="Empathy" value="Empathy">
+						Empathy
+					</label>
+					<label for="Animal morphing">
+						<input type="checkbox" name="superpower" id="Animal morphing" value="Animal morphing">
+						Animal morphing
+					</label>
+				</div>
 
 				<label class="question" for="textarea">What Would Be The Perfect Crime?</label>
-				<textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+				<textarea name="textarea" id="textarea" rows="3"></textarea>
 
 				<button id="submit">Submit</button>
 			</form>

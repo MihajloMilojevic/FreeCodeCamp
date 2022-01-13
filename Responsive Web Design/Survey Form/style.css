@@ -1,7 +1,145 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900');
+
+*, *::before, *::after {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 body {
-	font-size: 20px;
-	font-family:verdana;
+	font-size: 1.5rem;
+	font-weight: 300;
+	line-height: 1.4;
+	font-family: 'Londrina Solid', cursive;
+	background: url("./images/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: rgba(255, 255, 255, 0.9);
+}
+h1 {
+	font-size: 3.5em;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1;
+	margin-block: 0;
+}
+#description {
+	margin-top: 0;
+	margin-bottom: 3rem;
+	text-align: center;
+	font-style: italic;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 2rem;
+}
+.question {
+	font-weight: 400;
+}
+form {
+	width: 90%;
+	margin: auto;
+	padding: 2rem;
+	border-radius: 2rem;
+	background: rgba(0,0,0,0.3);
+}
+input[type=text],
+input[type=email],
+input[type=number],
+select {
+	background: rgb(195, 218, 223);
+}
+input[type=text],
+input[type=email],
+input[type=number] {
+	width: 100%;
+	padding: 0.5rem;
+	padding-inline: 1.5rem;
+	font-size: 1.5rem;
+	border: none !important;
+	outline: none !important;
+	border-radius: 2rem;
+	margin-top: 0.3rem;
+	margin-bottom: 1rem;
+}
+select {
+	display: block;
+	width: 100%;
+	padding: 0.5rem;
+	padding-inline: 1.5rem;
+	font-size: 1.5rem;
+	border: none !important;
+	outline: none !important;
+	border-radius: 2rem;
+	margin-top: 0.3rem;
+	margin-bottom: 1rem;
+}
+label {
+	margin: 100 0;
+}
+footer {
+	width: 100%;
+	background: black;
+	color: white;
+	margin: 0;
+	padding: 1rem;
+	text-align: center;
+}
+
+a {
+	text-decoration: underline;
+	font-style: italic;
+	color: white !important;
+}
+.radio {
+	width: 100%;
+	display: grid;
+	gap: 2rem 1rem;
+	grid-template-columns: 1fr 1fr;
+	margin-block: 2rem
+}
+.radio div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.checkbox label {
+	display: block;
+}
+.checkbox {
+	columns: 3;
+}
+textarea {
+	width: 90%;
+	display: block;
+	resize: vertical;
+	font-size: 1.5rem;
+	outline: 0 !important;
+	border-radius: 1rem;
+	margin: auto;
+	padding-inline: 1rem;
+}
+button {
+	display: block;
+	border: none !important;
+	font-size: 1.5rem;
+	padding: 1rem;
+	text-align: center;
+	width: 90%;
+	border-radius: 1rem;
+	margin-block: 1rem;
+	margin-inline: auto;
+	background: rgba(255, 187, 0, 0.979);
+}
+@media (max-width: 700px) {
+	.container {
+		width: 100%;
+	}
+	.radio {
+		gap: 1rem;
+		grid-template-columns: 100%;
+	}
+	.checkbox {
+		columns: 1;
+	}
 }
