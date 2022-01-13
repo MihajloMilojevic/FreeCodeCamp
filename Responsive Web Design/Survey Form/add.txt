@@ -1,0 +1,1 @@
+backend that collect data into a database and by submiting a seurvey gives back a statistics
