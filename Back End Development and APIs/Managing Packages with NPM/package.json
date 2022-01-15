@@ -1,0 +1,26 @@
+{
+	"name": "fcc-learn-npm-package-json",
+	"dependencies": {
+		"express": "^4.14.0",
+		"moment": "~2.10.2"
+	},
+	"version": "1.0.0",
+	"author": "Mihajlo",
+	"description": "Project for freeCodeCamp",
+	"keywords": [
+		"backend",
+		"npm",
+		"node.js",
+		"express",
+		"freecodecamp"
+	],
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://idontknow/todo.git"
+	},
+	"license": "MIT"
+}
