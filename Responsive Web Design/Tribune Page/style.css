@@ -56,6 +56,12 @@ img {
 	display: block;
 	border-radius: .75rem;
 }
+#main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
 #img-caption {
 	text-align: center;
 	font-style: italic;
@@ -73,7 +79,7 @@ img {
 }
 #tribute-info {
 	text-align: justify;
-	padding: .5rem;
+	padding: 1rem;
 	width: 70%;
 	margin: auto;
 }
@@ -90,13 +96,22 @@ img {
 		width: 80%;
 		padding: 1rem;
 	}
-	#tribune-infp {
+	#tribute-info {
 		width: 100%;
+	}
+	#title {
+		font-size: 7rem;
 	}
 }
 @media (max-width: 600px) {
 	#img-div {
 		width: 95%;
+	}
+	#tribute-info {
+		width: 100%;
+	}
+	#title {
+		font-size: 5rem;
 	}
 }
 
