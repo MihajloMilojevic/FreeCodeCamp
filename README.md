@@ -8,6 +8,6 @@ This repository contains most of my solutions and projects I have completed on [
 
 ## Certificates
 
-- [Backend development and APIs](https://www.freecodecamp.org/certification/MilojevicMihajlo/javascript-algorithms-and-data-structures)
+- [Backend development and APIs](https://www.freecodecamp.org/certification/MilojevicMihajlo/back-end-development-and-apis)
 - [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/MilojevicMihajlo/javascript-algorithms-and-data-structures)
 - [Scientific Computing with Python](https://www.freecodecamp.org/certification/MilojevicMihajlo/scientific-computing-with-python-v7)
